@@ -1,6 +1,6 @@
 /*
-    - a Cycle object is like a linkedlist but it cycles back to the first item after the last
-    - this is inspired by intertools/cycle in Python
+    - a Cycle object is basically a cyclic iterator
+    - this is inspired by intertools/cycle in Python, I saw a video using it then got inspired to implement it from scratch
 */
 
 class Cycle {
@@ -30,9 +30,9 @@ class Cycle {
 
 
 class CycleNode {
-    constructor(value=null, next=null) {
+    constructor(value) {
         this.value = value;
-        this.next = next;
+        this.next = null;
     }
 }
 
