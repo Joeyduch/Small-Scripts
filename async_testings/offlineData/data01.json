@@ -1,0 +1,6 @@
+[
+    {"text": "Hello!", "from": "Bob"},
+    {"text": "Hi, how are you?", "from": "John"},
+    {"text": "Good, what about you?", "from": "Bob"},
+    {"text": "Great, thank you.", "from": "John"}
+]
